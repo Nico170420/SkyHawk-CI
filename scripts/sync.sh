@@ -32,7 +32,7 @@ DeviceTree="https://github.com/Nico170420/android_device_samsung_z3s.git"       
 DTBranch="shrp"                                                                                     #<--- Set the DT Branch Name here
 
 # Initialize Repo Manifest (SHRP/TWRP/RP)
-repo init -u ${REPO} -b ${DTBranch}
+repo init -u ${REPO} -b ${Branch}
 
 # Sync Repo
 repo sync -j$(nproc) --force-sync --no-clone-bundle --no-tags
